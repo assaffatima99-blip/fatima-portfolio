@@ -1,17 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Fatima CV Project</title>
-</head>
-<body>
-    <h1>Hello, I'm Fatima 👩‍💻</h1>
-    <p>Future Software Engineer</p>
+    <title>Fatima Project</title>
 
-    <h2>My Skills:</h2>
-    <ul>
-        <li>Learning HTML</li>
-        <li>Learning Coding</li>
-        <li>Building Projects</li>
-    </ul>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: #f5f5f5;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: black;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 3px solid purple;
+            object-fit: cover;
+        }
+
+        h1 {
+            color: purple;
+        }
+
+        body > a {
+            display: inline-block;
+            margin-top: 15px;
+            text-decoration: none;
+            color: white;
+            background-color: purple;
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        ul {
+            list-style-position: inside;
+            padding: 0;
+        }
+
+        div {
+            background-color: white;
+            margin: 20px auto;
+            padding: 15px;
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        input, textarea {
+            width: 250px;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<h1>Hello, I'm Fatima 👩‍💻</h1>
+
+<!-- TEST IMAGE (لازم تظهر أكيد) -->
+<img src="/Users/fatimaassaf/Desktop/todo-project/me.jpeg">
+
+<p>Future Software Engineer</p>
+
+<h2>My Skills:</h2>
+<ul>
+    <li>Learning HTML</li>
+    <li>Learning Coding</li>
+    <li>Building Projects</li>
+</ul>
+
+<a href="https://instagram.com/ziad_et_fatima" target="_blank">Visit My Instagram</a>
+
+<br><br>
+
+<button>Contact Me</button>
+
+<h2 id="projects">My Projects:</h2>
+
+<div>
+    <h3>Project 1: My First Website</h3>
+    <p>This is my first HTML project where I built my personal page.</p>
+</div>
+
+<div>
+    <h3>Project 2: Coming Soon</h3>
+    <p>I will add more projects as I learn more coding skills.</p>
+</div>
+
+<h2 id="contact">Contact Me:</h2>
+
+<form>
+    <input type="text" placeholder="Your Name"><br><br>
+    <input type="email" placeholder="Your Email"><br><br>
+    <textarea placeholder="Your Message"></textarea><br><br>
+    <button type="submit">Send</button>
+</form>
+
 </body>
 </html>
